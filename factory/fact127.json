@@ -1,0 +1,9 @@
+{
+	"name": "fact127",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8ed73b93-4a59-448b-a904-3f02735fbf33",
+		"tenantId": "441dc366-2988-4558-8827-718893181569"
+	}
+}
