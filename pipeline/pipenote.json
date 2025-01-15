@@ -69,7 +69,7 @@
 					{
 						"activity": "Copy data1",
 						"dependencyConditions": [
-							"Skipped"
+							"Completed"
 						]
 					}
 				],
@@ -82,13 +82,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/91madhu12@gmail.com/datalake",
-					"baseParameters": {
-						"filename": {
-							"value": "@pipeline().parameters.filename",
-							"type": "Expression"
-						}
-					}
+					"notebookPath": "/Users/91madhu12@gmail.com/datalake"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
