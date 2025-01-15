@@ -7,10 +7,6 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "factory127account"
 		},
-		"AzureBlobStorage1ls_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1ls'"
-		},
 		"new2_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/new/providers/Microsoft.Storage/storageAccounts/gen2staccount"
@@ -73,9 +69,6 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
-					},
-					"AzureBlobStorage1ls_connectionString": {
-						"value": "[parameters('AzureBlobStorage1ls_connectionString')]"
 					},
 					"new2_properties_typeProperties_scope": {
 						"value": "[parameters('new2_properties_typeProperties_scope')]"

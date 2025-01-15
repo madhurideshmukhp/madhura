@@ -5,9 +5,6 @@
 		"factoryName": {
 			"value": "factory127account"
 		},
-		"AzureBlobStorage1ls_connectionString": {
-			"value": ""
-		},
 		"new2_properties_typeProperties_scope": {
 			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/new/providers/Microsoft.Storage/storageAccounts/gen2staccount"
 		},
