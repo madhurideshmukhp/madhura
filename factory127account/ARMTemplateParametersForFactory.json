@@ -8,29 +8,8 @@
 		"AzureBlobStorage1ls_connectionString": {
 			"value": ""
 		},
-		"AzureDataLakeStorage1_accountKey": {
-			"value": ""
-		},
-		"AzureDatabricks1_accessToken": {
-			"value": ""
-		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
-			"value": "https://gen2staccount.dfs.core.windows.net/"
-		},
-		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
-			"value": "0115-110327-yd3t6efg"
-		},
-		"AzureKeyVault1ls_properties_typeProperties_baseUrl": {
-			"value": "https://kvsacc.vault.azure.net/"
-		},
-		"new2_properties_pipenote_parameters_filename": {
-			"value": ".trigerBody().filename"
-		},
 		"new2_properties_typeProperties_scope": {
 			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/new/providers/Microsoft.Storage/storageAccounts/gen2staccount"
-		},
-		"not_properties_pipenote_parameters_filename": {
-			"value": ".triggerBody().filename"
 		},
 		"not_properties_typeProperties_scope": {
 			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/new/providers/Microsoft.Storage/storageAccounts/gen2staccount"
@@ -52,9 +31,6 @@
 		},
 		"trigger3new_properties_typeProperties_scope": {
 			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/newresource/providers/Microsoft.Storage/storageAccounts/detalake12"
-		},
-		"trigger4_properties_pipenote_parameters_filename": {
-			"value": ".triggerBody().filename"
 		},
 		"trigger4_properties_typeProperties_scope": {
 			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/new/providers/Microsoft.Storage/storageAccounts/gen2staccount"
