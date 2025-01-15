@@ -1,15 +1,25 @@
 {
-	"name": "new",
+	"name": "new2",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Stopped",
-		"pipelines": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipenote",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"filename": ".trigerBody().filename"
+				}
+			}
+		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/sales/blobs/out/",
+			"blobPathBeginsWith": "/sales/blobs/.input/",
 			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
-			"scope": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/newresource/providers/Microsoft.Storage/storageAccounts/detalake12",
+			"scope": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/new/providers/Microsoft.Storage/storageAccounts/gen2staccount",
 			"events": [
 				"Microsoft.Storage.BlobCreated"
 			]
