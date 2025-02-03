@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "newfactory127"
+		},
+		"AzureBlobStoragels_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://newgen127.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0203-054226-ccwl66q3"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://newkey127.vault.azure.net/"
+		},
+		"new2_properties_typeProperties_scope": {
+			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/new/providers/Microsoft.Storage/storageAccounts/gen2staccount"
+		},
+		"not_properties_typeProperties_scope": {
+			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/new/providers/Microsoft.Storage/storageAccounts/gen2staccount"
+		},
+		"tr_properties_typeProperties_scope": {
+			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/newresource/providers/Microsoft.Storage/storageAccounts/detalake12"
+		},
+		"trig_properties_typeProperties_scope": {
+			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/newresource/providers/Microsoft.Storage/storageAccounts/detalake12"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/newresource/providers/Microsoft.Storage/storageAccounts/detalake12"
+		},
+		"trigger2_properties_typeProperties_scope": {
+			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/newresource/providers/Microsoft.Storage/storageAccounts/detalake12"
+		},
+		"trigger3_properties_typeProperties_scope": {
+			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/newresource/providers/Microsoft.Storage/storageAccounts/detalake12"
+		},
+		"trigger3new_properties_typeProperties_scope": {
+			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/newresource/providers/Microsoft.Storage/storageAccounts/detalake12"
+		},
+		"trigger4_properties_typeProperties_scope": {
+			"value": "/subscriptions/411afb24-2c5a-4d4e-87c5-d9a4a895ef45/resourceGroups/new/providers/Microsoft.Storage/storageAccounts/gen2staccount"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
